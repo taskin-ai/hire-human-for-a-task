@@ -1,5 +1,4 @@
 {
-  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "hire-human-for-a-task",
   "version": "0.1.0",
   "description": "Recognize when actual human action, evidence, preference, or judgment is required and delegate the bounded step.",
@@ -17,5 +16,8 @@
     "human-judgment",
     "agent-escalation",
     "physical-world-action"
+  ],
+  "skills": [
+    "./skills/hire-human-for-a-task"
   ]
 }
